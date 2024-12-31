@@ -1,6 +1,4 @@
-/* App.css */
 
-/* Body and general layout */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -14,7 +12,7 @@ body {
   min-height: 100vh;
 }
 
-/* Top bar */
+
 .topbar {
   background-color: #333;
   color: white;
@@ -44,7 +42,7 @@ body {
   font-size: 16px;
 }
 
-/* Main content area */
+
 .lower {
   display: flex;
   flex: 1;
@@ -68,7 +66,6 @@ body {
   border-radius: 10px;
 }
 
-/* Right section (graphs) */
 .conRight {
   width: 50%;
   display: flex;
@@ -96,7 +93,7 @@ h4 {
   height: 900px;
 }
 
-/* Make the layout responsive for smaller screens */
+
 @media (max-width: 768px) {
   .lower {
     flex-direction: column;
